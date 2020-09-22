@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="kmagento_govdata::core" title="Govdata" module="Kmagento_Govdata" sortOrder="90" resource="Kmagento_Govdata::sample"/>
+        <add id="kmagento_govdata::test" title="Items" module="Kmagento_Govdata" sortOrder="10" parent="kmagento_govdata::core" action="kmagento_govdata/items/" resource="Kmagento_Govdata::items"/>
+    </menu>
+</config>
